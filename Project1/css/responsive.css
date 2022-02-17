@@ -1,0 +1,19 @@
+@media  (max-width: 1000px) {
+    nav {
+        flex-direction: column;
+    }
+    .logo {
+        justify-content: center;
+    }
+    nav ul {
+        justify-content: center;
+    }
+    .search  {
+        justify-content: center;
+    }
+    .search input{
+        margin: 0 24px;
+    }
+
+    
+}

@@ -1,0 +1,20 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+ background-color: rgb(49, 122, 233);   
+ border: 2px solid white;
+ border-radius: 7px;
+color: white;
+font-weight: 200;
+cursor: pointer;
+}
+.text-center{
+    text-align: center;
+}
+.my-1{
+    margin: 7px;
+
+}

@@ -1,0 +1,129 @@
+ 
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap');
+ *{
+     margin: 0;
+     padding: 0;
+ }
+ .progressbar{
+     background-color: red;
+     height: 2px;
+     animation: load 1s ease-in-out  1 ;;
+
+ }
+ @keyframes load {
+     0%{
+         width: 0vw;
+     }
+     50%{
+         width: 70vw;
+     }
+     100%{
+         width: 100vw;
+     }
+     
+ }
+ 
+ header{
+     background-color:rgb(49, 122, 233);
+     color: white;
+     font-family: 'Andada Pro', serif;
+     
+                               
+ }
+
+ nav{
+    display:flex; 
+    justify-content: center; 
+    
+    
+}
+
+ .logo{
+     display: flex;
+     align-items:center;
+     
+ }
+  
+ .logo img{
+     width: 88px;
+     padding: 0 24px;
+    
+ }
+ 
+ nav ul{
+    height: 58px;
+     display: flex; 
+     justify-content:flex-start  ;
+     align-items: center;
+     
+
+
+ }
+ nav ul li{
+     list-style: none; 
+     padding: 0 23px;
+     
+ }
+ nav ul li a {
+     color:white;
+     text-decoration: none;
+     
+
+ }
+
+ nav ul li a:hover {
+     font-weight: bold;
+     
+ }
+ .search{
+     display: flex;
+     align-items: center;
+
+ } 
+ .search input{
+     width: 30vw;
+     height: 28px;
+     border-radius: 2px;
+     margin:0 15px 0 50px;
+
+ }
+ .search button{
+    height: 30px;
+    
+
+ }
+
+ .container{
+     min-height: calc(100vh - 20vh);
+
+ }
+ .slider {
+     width: 80vw;
+     margin: 10px auto ;
+ }
+ .slider img{
+     width: 80vw;
+ }
+ .card{
+     /* display: flex; */
+    /* max-width: 92vw; */
+     margin: 37px 30px;
+     overflow: hidden;
+         
+ }
+ .card-items{
+     display: inline-flex;
+     width: 200px;
+     flex-direction: column;
+     margin: 5px 14px;  
+     
+ }
+
+ footer{
+
+     background-color:rgb(49, 122, 233);
+     color: white;
+     height: 10vh;
+     font-family: 'Andada Pro', serif;
+ }

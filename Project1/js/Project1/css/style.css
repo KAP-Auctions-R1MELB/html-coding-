@@ -1,0 +1,53 @@
+ 
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap');
+ *{
+     margin: 0;
+     padding: 0;
+ }
+ header{
+     background-color:black;
+     color: white;
+     font-family: 'Andada Pro', serif;
+                               
+ }
+ nav{
+    display:flex; 
+}
+ .logo{
+     display: flex;
+     align-items:center;
+ }
+ .logo img{
+     width: 88px;
+     padding: 0 25;
+ }
+ 
+ nav ul{
+    height: 68px;
+     display: flex; 
+     justify-content:flex-start  ;
+     align-items: center;
+     height: 58px;
+
+
+ }
+ nav ul li{
+     list-style: none; 
+     padding: 0 23px;
+     
+ }
+ nav ul li a {
+     color:white;
+     text-decoration: none;
+     
+
+ }
+
+ footer{
+
+     background-color:black;
+     color: white;
+     height: 10vh;
+     font-family: 'Andada Pro', serif;
+ }
